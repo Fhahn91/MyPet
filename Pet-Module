@@ -1,0 +1,24 @@
+#Defining Pet Module
+
+class Pet :
+
+# Defining constructor
+    def __init__(self):
+        self._species = ""
+        self._name = ""
+        self._age = 0
+
+# Defining methods for public interface
+
+    #Sets the species
+    def setSpecies(self, spec) :
+        self._species = spec
+    #Sets the name
+    def setName(self, nam) :
+        self._name = nam
+    #Sets the age
+    def setAge(self, ag) :
+        self._age = ag
+    #Accesses information obtained
+    def getInfo(self) :
+        return self._species + ", " + self._name + ", " + self._age
