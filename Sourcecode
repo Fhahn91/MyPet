@@ -1,0 +1,22 @@
+##
+#   A program that imports the Pet module from the KittehFinal library.
+#   The program then sets the species, name, and age of a Pet.
+#   The program then prints out the information.
+# 
+
+# Importing Pet module from KittehFinal library
+from KittehFinal import Pet
+
+# Setting the Pet module to myPet as an object
+myPet = Pet()
+
+# Calling defined functions within the module to set species, name, and age.
+myPet.setSpecies("Felis Catus")
+myPet.setName("Gypsy")
+myPet.setAge("Four")
+
+# Calling defined function with the module to retrieve information.
+info = myPet.getInfo()
+
+# Printing the information gathered. 
+print("My Kitteh:", info)
